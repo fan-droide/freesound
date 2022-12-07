@@ -8,7 +8,7 @@ This is a JS web client example for the usage of the Freesound.org API based on 
 ## Running locally
 
 1. `git clone https://github.com/fan-droide/freesound.git`
-2. `cd freesound_webapp`
+2. `cd freesound`
 3. `npm i`
 5. `cp .env.example .env`
 ```bash
