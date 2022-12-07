@@ -17,6 +17,8 @@ This is a JS web client example for the usage of the Freesound.org API based on 
 7. `npm start`
 8. Open `http://localhost:1234`
 
+NOTE: Uncomment lines at https://github.com/fan-droide/freesound/blob/a05d410b0bd42041599760c511aa9a61d0201703/src/examples.js#L169 to run the different examples
+
 ## More info
 
 freesound-client API Docs: https://amilajack.github.io/freesound-client/index.html
