@@ -21,9 +21,9 @@ NOTE: Uncomment lines at https://github.com/fan-droide/freesound/blob/a05d410b0b
 
 ## More info
 
-freesound-client API Docs: https://amilajack.github.io/freesound-client/index.html
-Check https://freesound.org/docs/api/ for documentation about the Freesound.org API.
-Apply for an API key at https://freesound.org/apiv2/apply
+- freesound-client API Docs: https://amilajack.github.io/freesound-client/index.html
+- Check https://freesound.org/docs/api/ for documentation about the Freesound.org API.
+- Apply for an API key at https://freesound.org/apiv2/apply
 
 ## Disclaimer
 - Be careful when running all examples at once as you can face throttle issue due to the amount of requests
