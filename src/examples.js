@@ -166,7 +166,7 @@ function displayMessage(text,place){
  * IMPORTANT!!: BE CAREFUL BECAUSE YOU CAN BUMP INTO
  * "Request was throttled because of exceeding a request limit rate (60/minute)" 
  */
-example1()
+//example1()
 //example2()
 //example3()
 //example4()
