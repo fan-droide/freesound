@@ -23,8 +23,8 @@ if (theCode !==null) {
     xhr.open("POST", 'https://freesound.org/apiv2/oauth2/access_token/', true);    
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send(JSON.stringify({
-        client_id: '7NCv4CVuumRGo6PLL9UT',
-        client_secret: 'jTEigHpOx3PTnmyswF55kEd3WKLPgNRWVnY78bMB',                
+        client_id: process.env.CLIENT_ID,
+        client_secret: process.env.CLIENT_SECRET,                
         code: theCode,
         grant_type: 'authorization_code'
     }));
@@ -37,8 +37,8 @@ if (theCode !==null) {
         },
         body: JSON.stringify(
             {
-                client_id: 'O8i6959TpWbIwkZ8two3',
-                client_secret: 'JrmDQPMvbc1OfLvJ6XAOZLDmRoeV74zIwoSc2Kug',                
+                client_id: process.env.CLIENT_ID,
+                client_secret: process.env.CLIENT_SECRET,                
                 code: theCode,
                 grant_type: 'authorization_code'
             })
