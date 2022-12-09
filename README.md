@@ -4,6 +4,9 @@ This is a JS web client example for the usage of the Freesound.org API based on 
 - https://github.com/g-roma/freesound.js
 - https://github.com/amilajack/freesound-client
 
+## Demo
+You can check OAuth2 to login into your Freesound account and upload a sound after:
+https://freesoundapiclient.web.app
 
 ## Running locally
 
